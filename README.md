@@ -1,11 +1,11 @@
 # Lecture Machine Learning
 
 This repository contains information for the course **machine learning**
-held in the master program *Informatik in den Ingenieurwissenschaften* at the University of Applied Sciences Berlin. This is work-in-progress. The structure, style and concept of the lecture was heavily inspired by the data science lecture of Christina Kratsch (https://chkra.github.io/ds-lecture/).
+held in the master program *Informatik in den Ingenieurwissenschaften* at the University of Applied Sciences Berlin. This is work-in-progress. The structure, style, and concept of the lecture was heavily inspired by the data science lecture of Christina Kratsch (https://chkra.github.io/ds-lecture/) and parts of the documentation were simply copied.
 
 ## Structure of the Repository
 
-The repository is based on the Jekyll template [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) by Michael Rose. All technical folders originate from the template with possibly minimal aesthetic adjustments (e.g., code syntax highlighting).
+The repository is based on the Jekyll template [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) by Michael Rose. All technical folders originate from the template with possibly minimal aesthetic adjustments (e.g., code syntax highlighting). There is a [helpful cheat sheet for Minimal Mistakes](https://www.fabriziomusacchio.com/blog/2021-08-11-Minimal_Mistakes_Cheat_Sheet/).
 
 The following folders contain the content:
 
