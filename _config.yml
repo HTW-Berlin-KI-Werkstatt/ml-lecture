@@ -292,3 +292,7 @@ defaults:
       comments: # true
       share: true
       related: true
+      lecture_name: "Machine Learning"
+      lecture_desc: "From linear models to GPTs"
+      licence: "CC-BY"
+      licence_desc: 2024 | HTW Berlin 
