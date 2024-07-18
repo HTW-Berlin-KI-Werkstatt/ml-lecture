@@ -4,72 +4,67 @@ layout: single
 author_profile: true
 author: Erik Rodner
 lecture_name: "Machine Learning"
-lecture_desc: "Basics of Machine Learning"
+lecture_desc: "From linear models to GPTs"
 licence: "CC-BY"
 licence_desc: 2024 | HTW Berlin 
 toc: false
 classes: wide
 ---
 
-Welcome to the machine learning course, this course is intended for master students able to tackle  programming with ease, basics of linear algebra as well as calculus.
+Welcome to the machine learning course, this course is intended for master students able to tackle  programming with ease, basics of linear algebra as well as calculus. But no worries, we will also repeat math concepts when needed as well.
 
-## ➤ Why but why is this lecture material in English?
+## ➤ Why but really why is this lecture material in English?
 
-
+If you work as a machine learning engineer (or a software engineer in general) your main working language (at least when reading) will be English. There is an international community of PhD students around the globe that take care and further develop open-source tools for machine learning. Furthermore, reading current publications and trying to stay-up-to-date is an essential part and can simply not be done in German. Therefore, all documentation and material of the lecture will be in English.
 
 ## ➤ What is machine learning?
 
+Whereas there are plenty of definitions for machine learning, let's keep it simple: Machine learning is about algorithms that learn models from data (and experience). The latter one refers to a sub-part of machine learning known as reinforcement learning, something that we will not cover in the lecture.
+
 ## ➤ How is this lecture structured
 
-The event consists of three parts:
-* a **theory part**, which you are to *independently read at home* on a weekly basis.
+The lecture follows an reverse-classroom concept originally used by Christina Kratsch in her data science lecture. The event consists of three parts:
+* a **theory part**, which you have to *independently read at home* on a weekly basis.
 * a **practical part**, which we will *practice together on-site* weekly, and
 * a **small project**, which you will *independently create* starting from the second half of the semester.
 
 Specifically, we will deal with the following content: [^1]
 
-[^1]: The lecture materials are *work in progress* and will continuously change and evolve.
+[^1]: The lecture materials are *work in progress* and will continuously change and evolve. We will likely cover only a certain part of the topics listed.
 
-### Before the Lecture
+### Part 1: Getting to know the tools and the math
 
-Please study the following content BEFORE the first lecture: <br>
-[Learn from the Best](/modules/ex-bahn-ds/bahn.md)
-{: .notice--warning}
+1. [Definitions, tools and basic math concepts](/lectures/01/01.md) - a tale about vectors and tensors
+2. [Fundamental principles and challenges of machine learning](lectures/02/02.md) - how to evaluate machine learning models without cheating
 
+### Part 2: Classical ML and building your first machine learning system
 
-### Part 1: Getting to Know the Tools
+3. Turning *stuff* into vectors
+3. Nearest neighbours and tree-based classifiers
+4. Ensembles and how to beat everything with AutoML
 
-1. [Basics, Organizational, Data](lectures/01/01.md)
-2. [Tools for Data Science](lectures/02/02.md)
-3. [Understanding Data as a Project](lectures/03/03.md)
-4. [Simple Visualizations](lectures/04/04.md)
-5. [Advanced Visualizations](lectures/05/05.md)
+### Part 3: From linear models to the first deep learning architectures
 
-### Part 2: Analyzing Real Problems and Organizing Solutions
+5. Linear models and loss functions
+6. Classical neural networks and back-propagation
+7. Convolutional neural networks for computer vision and the foundation model principle
 
-6. [Data Engineering for Structured Data (Databases, Clustering, DimRed)](lectures/06/06.md)
-7. [Data Engineering for Unstructured Data (NoSQL) and Images](lectures/07/07.md)
-8. [Statistical Inference and Forecasting](lectures/08/08.md)
-9. [ChatGPT and Vector Databases](lectures/09/09.md)
+### Part 4: Large language models - everything is a token
 
-### Part 3: Responsibly Managing the Impact of Solutions
+8. Word embeddings and transformer layers
+9. Large-language models
 
-10. [Data Science in the Company](lectures/10/10.md)
-11. Data Engineering for Text, Web, Social (LLMs, Vector-DB)
-12. Data Science in the Company
-13. Digital Sustainability
-14. Presenting Data Appealingly
+### Part 6: Trends and applications
+
+10. On the edge of research: Multimodal vision models, In-context learning, etc.
+
 
 ## ➤ What Will You Learn in This Lecture?
 
-**1. ...** 
-
-**2. ...** 
-
-**3. ...** 
-
-## ✘ ...
-
+1. You will **understand the basic concepts** of machine learning.
+2. You will be able to **select appropiate ML models** for a certain application.
+3. You will have the skills to **implement machine learning pipelines** for basic problems.
+4. You will be able to **evaluate these pipelines** and **improve them further**. 
 
 ## ★ How Will Participation Be Evaluated?
 
