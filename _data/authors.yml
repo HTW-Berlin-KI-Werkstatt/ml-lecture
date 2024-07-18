@@ -1,13 +1,7 @@
 Erik Rodner:
   name        : "Erik Rodner"
   avatar      : "/assets/images/authors/er.png"
-#  links:
-#  - label: "Email"
-#    icon: "fas fa-fw fa-envelope-square"
-#  - label: "Website"
-#    icon: "fas fa-fw fa-link"
-#    - label: "Twitter"
-#      icon: "fab fa-fw fa-twitter-square"
-#      url: "https://twitter.com/rhymeswithsackit"
 
-
+Christina Kratsch:
+  name        : "Christina Kratsch"
+  avatar      : "/assets/images/authors/ck.png"

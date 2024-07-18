@@ -22,7 +22,7 @@ title                    : ""
 title_separator          : "-"
 subtitle                 : 
 name                     : ""
-description              : "Grundlegende Methoden für die Exploration und das Management von Daten | HTW Berlin"
+description              : "Machine Learning | HTW Berlin"
 url                      : https://chkra.github.io/ds-lecture # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 #base_url                 : "/"
 repository               : "chkra/ds-lecture"
@@ -106,7 +106,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Christina Kratsch"
+  name             : "Erik Rodner"
   # avatar           : "https://raw.githubusercontent.com/chkra/chkra/master/9607474.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "KI Lehrwerkstatt."
   location         : "HTW Berlin"
