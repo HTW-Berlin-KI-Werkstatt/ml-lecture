@@ -3,3 +3,4 @@ _site/*
 _sass_legacy/*
 *.lock
 .bundle
+.sass-cache
