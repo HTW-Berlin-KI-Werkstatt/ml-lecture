@@ -282,15 +282,14 @@ compress_html:
 
 # Defaults
 defaults:
-  - scope:
+  - 
+    scope:
       path: ""
-      type: posts
     values:
       layout: single
       author_profile: true
       read_time: true
       comments: # true
-      share: true
       related: true
       lecture_name: "Machine Learning"
       lecture_desc: "From linear models to GPTs"
