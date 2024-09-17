@@ -39,9 +39,8 @@ Specifically, we will deal with the following content: [^1]
 
 ### Part 2: Classical ML and building your first machine learning system
 
-3. [Embeddings and feature vectors](/modules/featurevectors/featurevectors.md) - it's all about turning *stuff* into vectors
-3. [Nearest neighbours and tree-based classifiers](/modules/classicalmlmodels/classicalmlmodels.md) - learn how classical ML methods work
-4. [Ensembles and AutoML](/modules/automlensembles/automlensembles.md) - ask people that disagree and the sledgehammer of ML - AutoML
+3. [Vectors and neighbours](/lectures/03/03.md) - going through our first machine learning model
+4. [Ensembles and AutoML](lectures/04/04.md) - combining and optimizing models
 
 ### Part 3: From linear models to the first deep learning architectures
 
