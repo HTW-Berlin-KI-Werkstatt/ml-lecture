@@ -39,12 +39,12 @@ Specifically, we will deal with the following content: [^1]
 
 ### Part 2: Classical ML and building your first machine learning system
 
-3. [Vectors and neighbours](/lectures/03/03.md) - going through our first machine learning model
+3. [Classical machine learning: Vectors and neighbours](/lectures/03/03.md) - developing our first machine learning models
 4. [Ensembles and AutoML](lectures/04/04.md) - combining and optimizing models
 
 ### Part 3: From linear models to the first deep learning architectures
 
-5. Linear models and loss functions
+5. [Linear models and loss functions](lectures/05/05.md)
 6. Classical neural networks and back-propagation
 7. Convolutional neural networks for computer vision and the foundation model principle
 
