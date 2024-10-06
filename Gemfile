@@ -7,4 +7,5 @@ group :jekyll_plugins do
     gem "kramdown-parser-gfm"
     gem "webrick"
     gem "jekyll-relative-links"
+#    gem 'jekyll-spaceship'
 end

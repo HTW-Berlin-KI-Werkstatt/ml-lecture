@@ -228,6 +228,7 @@ plugins:
   - jekyll-relative-links
   - jekyll-gist
   - jekyll-include-cache
+#  - jekyll-spaceship
 #  - jekyll-paginate
 #  - jekyll-feed
 #  - jekyll-sitemap
