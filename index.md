@@ -19,18 +19,22 @@ If you work as a machine learning engineer (or a software engineer in general) y
 
 ## ➤ What is machine learning?
 
-Whereas there are plenty of definitions for machine learning, let's keep it simple: Machine learning is about algorithms that learn models from data (and experience). The latter one refers to a sub-part of machine learning known as reinforcement learning, something that we will not cover in the lecture.
+Whereas there are plenty of definitions for machine learning, let's keep it simple: **Machine learning is about algorithms that learn models from data (and experience)**. The latter term *experience* refers to a sub-part of machine learning known as reinforcement learning, something that we will not cover in the lecture.
 
 ## ➤ How is this lecture structured
 
 The lecture follows an reverse-classroom concept originally used by Christina Kratsch in her data science lecture. The event consists of three parts:
 * a **theory part**, which you have to *independently read at home* on a weekly basis.
 * a **practical part**, which we will *practice together on-site* weekly, and
-* a **small project**, which you will *independently create* starting from the second half of the semester.
+* a **small project**, which you will *independently create*.
 
 Specifically, we will deal with the following content: [^1]
 
 [^1]: The lecture materials are *work in progress* and will continuously change and evolve. We will likely cover only a certain part of the topics listed.
+
+### Part 0: Because an index always starts with zero
+
+1. [Motivation and latest developments](/lectures/00/00.md) - why is understanding and using machine learning an essential future skill
 
 ### Part 1: Getting to know the tools and the math
 
