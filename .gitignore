@@ -4,3 +4,4 @@ _sass_legacy/*
 *.lock
 .bundle
 .sass-cache
+.DS_Store
