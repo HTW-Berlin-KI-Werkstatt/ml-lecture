@@ -50,7 +50,7 @@ Specifically, we will deal with the following content: [^1]
 
 5. [Linear models and loss functions](lectures/05/05.md)
 6. [Classical neural networks and back-propagation](lectures/06/06.md)
-7. Convolutional neural networks for computer vision and the foundation model principle
+7. [Convolutional neural networks for computer vision and the foundation model principle](lectures/07/07.md)
 
 ### Part 4: Large language models - everything is a token
 
