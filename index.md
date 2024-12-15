@@ -54,8 +54,8 @@ Specifically, we will deal with the following content: [^1]
 
 ### Part 4: Large language models - everything is a token
 
-8. Word embeddings and transformer layers
-9. Large-language models
+8. [Large language model fundamentals](lectures/08/08.md)
+9. Large-language models in detail
 
 ### Part 6: Trends and applications
 
