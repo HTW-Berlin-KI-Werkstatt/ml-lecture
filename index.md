@@ -73,9 +73,9 @@ Specifically, we will deal with the following content: [^1]
 
 All relevant information regarding the evaluation can be found on Moodle.
 
-## Further links 
-1. Plenty of animations: https://nnfs.io/neural_network_animations
-2. Convolutions in 2D: https://github.com/vdumoulin/conv_arithmetic
+## Further literature 
+1. Simon Prince "Understanding Deep Learning" ([webpage w/ videos](https://udlbook.github.io/udlbook/), [pdf](https://github.com/udlbook/udlbook/releases/download/v5.00/UnderstandingDeepLearning_11_21_24_C.pdf))
+2. Aston Zhang, Zachary C. Lipton, Mu Li, Alexander J. Smola, "Dive into Deep Learning" ([webpage w/ notebooks ](https://d2l.ai/))
 
 
 
