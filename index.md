@@ -13,10 +13,6 @@ classes: wide
 
 Welcome to the machine learning course, this course is intended for master students able to tackle  programming with ease, basics of linear algebra as well as calculus. But no worries, we will also repeat math concepts when needed as well.
 
-## ➤ Why but really why is this lecture material in English?
-
-If you work as a machine learning engineer (or a software engineer in general) your main working language (at least when reading) will be English. There is an international community of PhD students around the globe that take care and further develop open-source tools for machine learning. Furthermore, reading current publications and trying to stay-up-to-date is an essential part and can simply not be done in German. Therefore, all documentation and material of the lecture will be in English.
-
 ## ➤ What is machine learning?
 
 Whereas there are plenty of definitions for machine learning, let's keep it simple: **Machine learning is about algorithms that learn models from data (and experience)**. The latter term *experience* refers to a sub-part of machine learning known as reinforcement learning, something that we will not cover in the lecture.
@@ -55,19 +51,23 @@ Specifically, we will deal with the following content: [^1]
 ### Part 4: Large language models - everything is a token
 
 8. [Large language model fundamentals](lectures/08/08.md)
-9. [Large-language models in detail](lectures/09/09.md)
+9. [Attention and transformers](lectures/09/09.md)
 
-### Part 6: Trends and applications
+### Part 6: Trends and applications (work-in-progress)
 
 10. On the edge of research: Multimodal vision models, In-context learning, etc.
 
 
-## ➤ What Will You Learn in This Lecture?
+## ➤ Goals of the lecture
 
 1. You will **understand the basic concepts** of machine learning.
 2. You will be able to **select appropiate ML models** for a certain application.
 3. You will have the skills to **implement machine learning pipelines** for basic problems.
 4. You will be able to **evaluate these pipelines** and **improve them further**. 
+
+## ➤ Why but really why is this lecture material in English?
+
+If you work as a machine learning engineer (or a software engineer in general) your main working language (at least when reading) will be English. There is an international community of PhD students around the globe that take care and further develop open-source tools for machine learning. Furthermore, reading current publications and trying to stay-up-to-date is an essential part and can simply not be done in German. Therefore, all documentation and material of the lecture will be in English.
 
 ## ★ How Will Participation Be Evaluated?
 
