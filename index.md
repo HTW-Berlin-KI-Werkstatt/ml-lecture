@@ -19,7 +19,7 @@ Whereas there are plenty of definitions for machine learning, let's keep it simp
 
 ## ➤ How is this lecture structured
 
-The lecture follows an reverse-classroom concept originally used by Christina Kratsch in her data science lecture. The event consists of three parts:
+The lecture follows a flipped-classroom concept originally used by Christina Kratsch in her data science lecture. The event consists of three parts:
 * a **theory part**, which you have to *independently read at home* on a weekly basis.
 * a **practical part**, which we will *practice together on-site* weekly, and
 * a **small project**, which you will *independently create*.
@@ -53,7 +53,7 @@ Specifically, we will deal with the following content: [^1]
 8. [Large language model fundamentals](lectures/08/08.md)
 9. [Attention and transformers](lectures/09/09.md)
 
-### Part 6: Trends and applications (work-in-progress)
+### Part 5: Trends and applications (work-in-progress)
 
 10. On the edge of research: Multimodal vision models, In-context learning, etc.
 
@@ -61,7 +61,7 @@ Specifically, we will deal with the following content: [^1]
 ## ➤ Goals of the lecture
 
 1. You will **understand the basic concepts** of machine learning.
-2. You will be able to **select appropiate ML models** for a certain application.
+2. You will be able to **select appropriate ML models** for a certain application.
 3. You will have the skills to **implement machine learning pipelines** for basic problems.
 4. You will be able to **evaluate these pipelines** and **improve them further**. 
 
