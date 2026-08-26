@@ -45,13 +45,13 @@ Specifically, we will deal with the following content: [^1]
 ### Part 3: From linear models to the first deep learning architectures
 
 5. [Linear models and loss functions](lectures/05/05.md)
-6. [Classical neural networks and back-propagation](lectures/06/06.md)
-7. [Convolutional neural networks for computer vision and the foundation model principle](lectures/07/07.md)
+6. [Neural networks and back-propagation](lectures/06/06.md)
+7. [Convolutional neural networks and transfer learning](lectures/07/07.md)
 
 ### Part 4: Large language models - everything is a token
 
 8. [Large language model fundamentals](lectures/08/08.md)
-9. [Attention and transformers](lectures/09/09.md)
+9. [Large language model details](lectures/09/09.md)
 
 ### Part 5: Trends and applications (work-in-progress)
 
