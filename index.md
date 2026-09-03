@@ -76,6 +76,7 @@ All relevant information regarding the evaluation can be found on Moodle.
 ## Further literature 
 1. Simon Prince "Understanding Deep Learning" ([webpage w/ videos](https://udlbook.github.io/udlbook/), [pdf](https://github.com/udlbook/udlbook/releases/download/v5.00/UnderstandingDeepLearning_11_21_24_C.pdf))
 2. Aston Zhang, Zachary C. Lipton, Mu Li, Alexander J. Smola, "Dive into Deep Learning" ([webpage w/ notebooks ](https://d2l.ai/))
+3. [Interactive ML demos](http://ds-demos.fgnussbaum.com) - playful demos for many of the concepts of this lecture (loss functions, gradient descent, overfitting, decision trees, neural networks, and more)
 
 
 
