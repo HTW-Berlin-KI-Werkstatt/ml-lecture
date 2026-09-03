@@ -14,6 +14,8 @@
 
 .thebe-activate-button {
   white-space: nowrap;
+  flex: 0 0 auto;
+  width: auto;
   padding: 0.5em 1.2em;
   border: none;
   border-radius: 4px;
@@ -36,6 +38,18 @@
 .thebe-activate-hint {
   font-size: 0.7em;
   color: #646769;
+}
+
+/* kernel status widget: same scale as the hint text, not headline-sized */
+.thebe-status,
+.thebe-status * {
+  font-size: 0.7em !important;
+  line-height: 1.4 !important;
+}
+
+.thebe-status {
+  flex: 1 1 100%;
+  margin: 0;
 }
 
 /* thebe cell tweaks so cells blend with the theme */

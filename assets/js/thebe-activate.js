@@ -36,6 +36,12 @@
         .bootstrap(thebe.getPageConfig())
         .then(function () {
           button.textContent = "✓ Code blocks are interactive";
+          // give the per-cell buttons clearer labels
+          document.querySelectorAll("button").forEach(function (b) {
+            if (b.textContent.trim() === "run all") {
+              b.textContent = "run all code on this page";
+            }
+          });
         })
         .catch(function (err) {
           console.error("thebe bootstrap failed", err);
