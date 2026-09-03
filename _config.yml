@@ -283,10 +283,41 @@ compress_html:
 
 # Defaults
 defaults:
-  # pilot: in-browser executable code blocks (thebe-lite) on one page only
+  # in-browser executable code blocks (thebe-lite) for the classical ML pages
+  # (torch/CLIP-based modules are excluded - pyodide cannot run them)
   -
     scope:
       path: "modules/numpy_essentials"
+    values:
+      runnable: true
+  -
+    scope:
+      path: "modules/basic_principles_ml"
+    values:
+      runnable: true
+  -
+    scope:
+      path: "modules/ml_evaluation"
+    values:
+      runnable: true
+  -
+    scope:
+      path: "modules/nearest"
+    values:
+      runnable: true
+  -
+    scope:
+      path: "modules/treebased"
+    values:
+      runnable: true
+  -
+    scope:
+      path: "modules/ensembles"
+    values:
+      runnable: true
+  -
+    scope:
+      path: "modules/linear_models"
     values:
       runnable: true
   -
