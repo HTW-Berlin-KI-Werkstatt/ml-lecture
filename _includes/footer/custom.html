@@ -1,3 +1,9 @@
 <!-- start custom footer snippets -->
 
+{% if page.runnable %}
+<script src="{{ '/assets/js/thebe/thebe-lite/thebe-lite.min.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/thebe/thebe/index.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/thebe-activate.js' | relative_url }}"></script>
+{% endif %}
+
 <!-- end custom footer snippets -->

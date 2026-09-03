@@ -1,0 +1,95 @@
+/* Styling for the thebe activation bar and interactive cells */
+
+.thebe-activate-bar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.75em;
+  margin: 0 0 1.5em 0;
+  padding: 0.75em 1em;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  background: #f8f9fa;
+}
+
+.thebe-activate-button {
+  white-space: nowrap;
+  padding: 0.5em 1.2em;
+  border: none;
+  border-radius: 4px;
+  background: #6f777d;
+  color: #fff;
+  font-size: 0.85em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.thebe-activate-button:hover:not(:disabled) {
+  background: #494e52;
+}
+
+.thebe-activate-button:disabled {
+  cursor: default;
+  opacity: 0.85;
+}
+
+.thebe-activate-hint {
+  font-size: 0.7em;
+  color: #646769;
+}
+
+/* thebe cell tweaks so cells blend with the theme */
+.thebe-cell {
+  margin-bottom: 1em;
+}
+
+.thebe-cell .cm-editor,
+.thebe-cell .CodeMirror {
+  font-size: 0.75em;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+}
+
+.thebe-output {
+  font-size: 0.75em;
+  background: transparent;
+  color: inherit;
+}
+
+/* jupyter output areas inherit a dark background from the theme's syntax
+   highlighting scope - force a light, readable output */
+.thebe-output .jp-OutputArea,
+.thebe-output .jp-OutputArea-output,
+.thebe-output pre {
+  background: #fff !important;
+  color: #333 !important;
+}
+
+/* once thebe replaced the static code block, the rouge wrapper's dark
+   background must not shine through around the editor/controls/output */
+div.language-python.highlighter-rouge:has(.thebe-cell) {
+  background: transparent;
+}
+
+/* run/restart button bar */
+.thebe-controls {
+  margin: 0.3em 0;
+}
+
+.thebe-controls .thebe-button {
+  background: #f2f3f3;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 0.15em 0.7em;
+  margin-right: 0.3em;
+  font-size: 0.7em;
+  cursor: pointer;
+}
+
+.thebe-controls .thebe-button:hover {
+  background: #e0e0e0;
+}
+
+.thebe-output img {
+  max-width: 100%;
+}

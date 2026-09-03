@@ -283,7 +283,13 @@ compress_html:
 
 # Defaults
 defaults:
-  - 
+  # pilot: in-browser executable code blocks (thebe-lite) on one page only
+  -
+    scope:
+      path: "modules/numpy_essentials"
+    values:
+      runnable: true
+  -
     scope:
       path: ""
     values:

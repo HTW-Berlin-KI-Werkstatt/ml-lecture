@@ -2,4 +2,23 @@
 
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 
+{% if page.runnable %}
+<!-- thebe: make python code blocks executable in the browser (JupyterLite/Pyodide) -->
+<script type="text/x-thebe-config">
+  {
+    "useBinder": false,
+    "useJupyterLite": true,
+    "bootstrap": false,
+    "requestKernel": true,
+    "selector": ".page__content div.language-python pre",
+    "mountStatusWidget": true,
+    "kernelOptions": {
+      "name": "python"
+    }
+  }
+</script>
+<link rel="stylesheet" href="{{ '/assets/js/thebe/thebe/thebe.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/thebe-custom.css' | relative_url }}">
+{% endif %}
+
 <!-- end custom head snippets -->
