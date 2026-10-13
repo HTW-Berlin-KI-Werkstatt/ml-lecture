@@ -13,3 +13,12 @@ Erik Rodner:
 Christina Kratsch:
   name        : "Christina Kratsch"
   avatar      : "/assets/images/authors/ck.png"
+
+Laura Maaßen:
+  name        : "Laura Maaßen"
+  avatar      : "/assets/images/authors/lm.png"
+  home        : "https://www.htw-berlin.de/hochschule/personen/person/?eid=15407"
+  links:
+    - label: "HTW Website"
+      icon: "fas fa-university"
+      url: "https://www.htw-berlin.de/hochschule/personen/person/?eid=15407"
