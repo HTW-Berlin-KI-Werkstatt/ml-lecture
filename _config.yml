@@ -215,6 +215,7 @@ sass:
   sass_dir: _sass
   style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
   quiet_deps: true # silence deprecation warnings from the vendored theme Sass (@import etc.)
+  silence_deprecations: [import] # main.scss itself imports the theme (needs jekyll-sass-converter >= 3.1)
 
 
 # Outputting
